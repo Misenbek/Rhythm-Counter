@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Rhythms - Counting Music (Local)</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="cm_style.css" />
+    
+    <!-- JavaScript Files -->
+    <script type="text/javascript" src="soundmanager2-nodebug-jsmin.js"></script>
+    <script type="text/javascript" src="JSWin_0.6.js"></script>
+    <script type="text/javascript" src="counting_music_beautified.js"></script>
+</head>
+<body bgcolor="#ffffff" onload="cm_init();">
+    
+    <h1 align="center" style="font-family: Arial; font-size: 36px;">Reading Rhythms - Counting Music</h1>
+    <h2 align="center" style="font-family: Arial; font-size: 24px;">- how music is measured and counted -</h2>
+    
+    <p style="font-family: Arial;">
+        <b>How to play Counting Music:</b> Using your mouse, click on the note and rest buttons in 
+        the same order they appear on your sheet music, and don't forget your ties. Notice the ruler — 
+        it helps us see the length or duration of our musical notes. As soon as you fill up an entire 
+        measure (or inch), you may play your rhythm by pressing the bottom left "Play" button.
+    </p>
+    
+    <p style="font-family: Arial;">
+        To select a sound (i.e., voice or drum), press the toggle button on the left.
+    </p>
+    
+    <p style="font-family: Arial;">
+        To change the time signature, press on the top or bottom number you wish to change. 
+        For example, to change 4/4 to 6/8, click on the bottom number (denominator) to change it to 8 — 
+        eighth notes will now be your chosen unit of measurement. Then, click on the top number (numerator) 
+        to change it to 6 — each measure will now be comprised of 6 eighth notes.
+    </p>
+    
+    <p style="font-family: Arial;">
+        <b>Counting Music Activity:</b>
+    </p>
+    
+    <!-- Hidden audio element for MEGAFILE.mp3 -->
+    <span style="display: none;">
+        <audio controls id="master_sound">
+            <source src="MEGAFILE.mp3">
+        </audio>
+    </span>
+    
+    <!-- Main Container - JavaScript will populate this -->
+    <div id="cm_container" class="cm_container">&nbsp;</div>
+    
+    <p align="center" style="font-family: Arial; margin-top: 40px;">
+        Copyright © 2005-2021 Phil Tulga
+    </p>
+    
+</body>
+</html>

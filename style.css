@@ -1,0 +1,47 @@
+a:link, a:visited {
+    color: blue;
+    text-decoration : none;
+}
+
+a:active {
+    color: red;
+    text-decoration : none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration : underline;
+}
+
+a.nav:link, a.nav:visited, a.nav:active {
+    color: black;
+    text-decoration : none;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+a.nav:hover {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+a.menu_nav:link, a.menu_nav:visited, a.menu_nav:active {
+    color: black;
+    text-decoration : none;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+a.menu_nav:hover {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial;
+}
